@@ -27,8 +27,8 @@ get_picture(photo_url)
 import os
 import sys
 import requests
-client_id = "SRTjrcFlUsmiuX0ubd35"
-client_secret = "78IeaHfyYg"
+client_id = ""
+client_secret = ""
 url = "https://openapi.naver.com/v1/vision/face" # 얼굴감지
 # url = "https://openapi.naver.com/v1/vision/celebrity" // 유명인 얼굴인식
 files = {'image': open('test_image.jpg', 'rb')}
